@@ -1,7 +1,7 @@
 ### Let us know how we’re doing!  
 Please take a moment to fill out the [Microsoft Cloud Workshop Survey](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRyEtIpX7sDdChuWsXhzKJXJUNjFBVkROWDhSSVdYT0dSRkY4UVFCVzZBVy4u) and help us improve our offerings.
 
-# SAP + Extend and Innovate
+# SAP plus extend and innovate
 
 Contoso Retail, Inc has been selling goods through various retail channels for the past 15 years. Currently, they have just over 200 brick-and-mortar stores but are planning to close 50+ of these stores next year, taking the number of physical locations down to 150 stores due to declining revenue and various other factors.  Of the remaining 150 stores, 35 of them are currently streamlined for an attempted re-branding that happened a few years ago. SAP is the line of business application and database for all customer and supply chain information. 
 
@@ -13,7 +13,7 @@ June 2021
 
 ## Target audience (Internal)
 - Microsoft SAP Specialists
-- SAP GBBs
+- SAP Global Black Belts
 - Azure Specialists
 - App Specialists
 - Data and AI Specialists
@@ -47,7 +47,6 @@ The primary goal for this system is to extract SAP data into a single dashboard 
 ### Whiteboard design session
 
 In this whiteboard design session, you will use the Azure Cloud Adoption  and Well-Architected Frameworks for a SAP on Azure architecture.  You will recommend IoT and data engineering tools for data extraction and transformation for Power BI dashboard presentation for retail forecasting and inventory supply chain.  You will address holistically the aspects of compute, monitoring and backup, identities and governance, storage, IoT and AI within the SAP on Azure architecture.  
-
 
 ## Azure services and related products
 - SAP on Azure
