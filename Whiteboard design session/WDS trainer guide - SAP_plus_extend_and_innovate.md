@@ -257,12 +257,12 @@ As part of its business plan, Contoso is looking to implement the following obje
 
 ### Infographic for common scenarios
 
-![SAP on Azure Scenarios and Benefits](media/sap-on-azure-scenarios-benefits.png 'Diagram illustrating SAP on Azure scenarios and benefits')
-![Cloud, Data, and AI fueling a transformative shift](media/cloud-data-ai-transformative-shift.png 'Diagram illustrating a transformative shift fueled by cloud, data, and AI')
-![Drivers for migrating SAP to the cloud](media/drivers-for-migrating-sap-to-cloud.png 'Diagram illustrating drivers for migrating SAP to the cloud')
-![Optimize cost with Azure](media/optimize-cost-with-azure.png 'Diagram illustrating cost savings with Azure')
-![Azure IoT Lambda architecture](media/iot-lambda-architecture.png 'Diagram illustrating Azure IoT lambda architecture')
-![SAP integration with Microsoft Intelligent Edge](media/sap-with-microsoft-intelligent-edge.png 'Diagram illustrating integration of Microsoft Intelligent Edge with SAP Business Context')
+![Diagram illustrating SAP on Azure scenarios and benefits.](media/sap-on-azure-scenarios-benefits.png 'SAP on Azure Scenarios and Benefits')
+![Diagram illustrating a transformative shift fueled by cloud, data, and AI.](media/cloud-data-ai-transformative-shift.png 'Cloud, Data, and AI fueling a transformative shift')
+![Diagram illustrating drivers for migrating SAP to the cloud.](media/drivers-for-migrating-sap-to-cloud.png 'Drivers for migrating SAP to the cloud')
+![Diagram illustrating cost savings with Azure.](media/optimize-cost-with-azure.png 'Optimize cost with Azure')
+![Diagram illustrating Azure IoT lambda architecture.](media/iot-lambda-architecture.png 'Azure IoT Lambda architecture')
+![Diagram illustrating integration of Microsoft Intelligent Edge with SAP Business Context.](media/sap-with-microsoft-intelligent-edge.png 'SAP integration with Microsoft Intelligent Edge')
 
 ## Step 2: Design a proof of concept solution
 
@@ -378,6 +378,9 @@ Directions: Tables reconvene with the larger group to hear the facilitator/SME s
 | Azure IoT Edge | <https://azure.microsoft.com/services/iot-edge/> |
 | Event Hubs | <https://azure.microsoft.com/services/event-hubs/> |
 | Connect to SAP systems from Azure Logic Apps | <https://docs.microsoft.com/azure/logic-apps/logic-apps-using-sap-connector> |
+| SAP API Business Hug | <https://api.sap.com/search?searchterm=retail&tab=All&refinedBy=true&top=12> |
+| SAP extensibility use case | <https://blogs.sap.com/2016/09/12/s4hana-extensibility-use-case-overview/> |
+| SAP Extension Suite | <https://www.sapinsideronline.com/extend-your-core-business-applications-and-drive-your-business-forward-with-sap-extension-suite/>|
 
 # SAP: Extend and Innovate with Microsoft Azure whiteboard design session trainer guide
 
