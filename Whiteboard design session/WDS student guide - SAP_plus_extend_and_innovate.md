@@ -30,6 +30,8 @@ Microsoft and the trademarks listed at https://www.microsoft.com/en-us/legal/int
   - [Abstract and learning objectives](#abstract-and-learning-objectives)
   - [Step 1: Review the customer case study](#step-1-review-the-customer-case-study)
     - [Customer situation](#customer-situation)
+  - [Step 1: Review the customer case study](#step-1-review-the-customer-case-study-1)
+    - [Customer situation](#customer-situation-1)
     - [Customer needs](#customer-needs)
     - [Customer objections](#customer-objections)
     - [Infographic for common scenarios](#infographic-for-common-scenarios)
@@ -63,7 +65,51 @@ Key success criteria comprise:
 *   Minimized cost through right-sizing and optimized resource allocation
 *   Data integration and analytics capabilities that include:
 
-   *   Collection of purchase data from all channels
+       *   Collection of purchase data from all channels
+       *   Comprehensive view of logistical and operational data, including sensor data from IoT devices in warehouses, stores, and manufacturing plants
+       *   Social media sentiment analytics and personalized marketing
+       *   Improved delivery route planning and scheduling, leveraging external data feeds that account for such factors as road closures or inclement weather
+       *   Optimized demand forecasting with automatic anomaly detection
+
+Your primary objective is to provide integration across all data to be used for analysis and reporting, bringing together manufacturing, supply chain, and sales. Your solution should help the customer (represented by the Chief Marketing Officer, Chief Digital Officer, the Chief Data Officer, and the Customer Experience Manager) to deliver a 360 degree view of the Contoso's business operations and to optimize them through data analytics.
+
+## Step 1: Review the customer case study
+
+**Outcome**
+
+Analyze your customer's needs.
+
+Timeframe: 15 minutes
+
+Directions: With all participants in the session, the facilitator/SME presents an overview of the customer case study along with technical tips.
+
+1.  Meet your table participants and trainer.
+
+2.  Read all of the directions for steps 1-3 in the student guide.
+
+3.  As a table team, review the following customer case study.
+
+### Customer situation
+
+Contoso Retail, Inc has been facing challenges in modernizing its on-premises SAP landscape in order to better compete in the current marketplace. Among the main challenges are:
+
+*   Aging on-premises infrastructure, not capable of running more demanding analytical workloads.
+*   Absence of a disaster recovery environment and limited high-availability provisions.
+*   Expensive to maintain development and testing environments.
+*   Lack of full visibility of supply and demand signals across the value chain.
+*   Insufficient customer data, precluding the ability to implement targeted advertising.
+*   Suboptimal delivery route planning and scheduling.
+
+As a struggling retailer, Contoso has been dealing with significant financial constraints. Given a hard limit of its capital expenditure budget, Contoso has been considering leveraging its operational budget and taking advantage of the pay-as-you-go model offered by Microsoft Azure. 
+
+To remedy its challenges, Contoso has asked you to design and implement a solution that would help them regain the competitive edge by transitioning their SAP landscape to Azure and modernizing it by leveraging Azure services. 
+
+Key success criteria comprise:
+
+*   A highly available SAP landscape
+*   Minimized cost through right-sizing and optimized resource allocation
+*   Data integration and analytics capabilities that include:
+
    *   Comprehensive view of logistical and operational data, including sensor data from IoT devices in warehouses, stores, and manufacturing plants
    *   Social media sentiment analytics and personalized marketing
    *   Improved delivery route planning and scheduling, leveraging external data feeds that account for such factors as road closures or inclement weather
@@ -93,9 +139,7 @@ Contoso Retail, Inc has been producing and selling goods through various retail 
 
 Contoso currently collects the store and online sales data and analyzes it within SAP, however, it recognizes that the scope of data collection and analysis is not sufficient to meet demands of the modern marketplace. To remediate this shortcoming, Contoso is looking for the ability to combine all sources of data, including:
 
-*   Purchase data from all channels
 *   Sensor data from IoT devices in warehouses, stores, and manufacturing plants
-*   Warehouse logistical and operational data
 *   Social media sentiment analytics
 *   External feeds with such information as road closures and inclement weather
 
@@ -161,29 +205,24 @@ _High-level architecture_
 
 1. Without getting into the details (the following sections will address the particular details), diagram your initial vision for handling the top-level requirements for:
 
-*   Data ingestion
+*   Data ingestion and integration
 *   Data transformation and processing
-*   Data integration
 *   Data analytics
 *   Personalized marketing
 
 Besides addressing the core functional requirements, consider the resiliency and cost optimization provisions that Contoso is looking for. 
 
-_Data ingestion_
+_Data ingestion and integration_
 
 1. Which Azure services can you use to ingest data from sources such as IoT devices and social networking feeds?
 1. Of the options you identified in the previous step, which ones would you recommend to Contoso?
+1. What data integration options would Contoso benefit from?
+1. Which Azure integration services would you recommend to be used by Contoso?
 
 _Data transformation and processing_
 
-1. What types of data transformation and processing do you anticipate you might need to address the Contoso's needs?
+1. How would you approach the need for additional analysis of data originating from SAP and non-SAP data sources?
 1. Which Azure services would you use to implement the corresponding functionality?
-1. What is the role of these Azure services in the hot and cold data paths?
-
-_Data integration_
-
-1. What data integration options would Contoso benefit from?
-1. Which Azure integration services would you recommend to be used by Contoso?
 
 _Data analytics_
 
